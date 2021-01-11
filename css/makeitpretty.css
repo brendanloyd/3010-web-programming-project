@@ -1,0 +1,225 @@
+.bg-1 {
+    background-color: black;
+    color: rebeccapurple;
+}
+
+.container-fluid bg-1 text-center {
+    background-image: url('https://cdn.hipwallpaper.com/i/37/87/SWxRQV.jpg');
+}
+
+.overflow-x-hidden {
+   overflow-x: hidden;
+}
+
+.please-work {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.bg-2 {
+    background-color: black;
+    color: rebeccapurple;
+}
+.bg-3 {
+    background-color: transparent;
+    color: rebeccapurple;
+}
+.bg-4 {
+    background-color: transparent;
+    color: rebeccapurple;
+}
+.container-fluid {
+    padding-top: 35px;
+    padding-bottom: 70px;
+}
+
+.registration-fields label {
+    padding-bottom: 5px;
+}
+
+.registration-body {
+    background-image: url("../img/671214.jpg");
+    background-repeat : no-repeat;
+    background-position: center;
+    color: #ffffff;
+    background-color: black;
+    /*width:300px;*/
+    /*border: 15px;*/
+    /*padding: 50px;*/
+    /*margin: 20px;*/
+}
+
+.registration-fields input:not([type="radio"]), .registration-fields select {
+    color: black;
+    width: 300px;
+}
+
+.registration-fields.form-group {
+    margin-bottom: 7px;
+}
+
+.registration-fields {
+    text-align: center;
+}
+/*.registration-fields .registration-text{*/
+/*    text-align: left;*/
+/*}*/
+
+.col-sm-3 {
+    width: 300px;
+}
+
+.row .col-sm-3 .img-responsive {
+    width: 350px;
+    height: 300px;
+}
+
+.buttons-container {
+    border-radius: 15px;
+}
+
+.buttons{
+    background-color: white;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: white;
+    color: black;
+}
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+    color: rebeccapurple;
+    font-family: Helvetica;
+    font-size: 16px;
+
+}
+.navBar a, .navBar a:hover{
+    color: rebeccapurple;
+}
+.history-border{
+    border-top: #4a4a4a 3px solid;
+    border-bottom: #4a4a4a 3px solid;
+}
+
+.top-container {
+    position: relative;
+    z-index: 10;
+}
+
+.navBar li {
+    display: inLine;
+    float:left;
+}
+
+.radio.input[type="radio"] {
+    width: 20px;
+    padding: 5px;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: grey;
+}
+/*.row-picture{*/
+/*    width:300px;*/
+/*    height:300px;*/
+/*}*/
+
+.wrap-it-up {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(180deg, #080c0f00 0%, #080c0f 10%, #080c0f 100%);
+    overflow: initial;
+    position: relative;
+}
+
+.error {
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 2px 5px;
+    color: red;
+    font-style: italic;
+    background-color: rgba(255,255,255, 0.8);
+}
+
+.gradient-overlay-video {
+    background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images//acolyteofthelostarts/video_overlay.png);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+}
+
+.video-content {
+    height: 855px;
+}
+
+.valid-feedback, .invalid-feedback {
+    background-color: rgba(255,255,255, 0.8);
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+
+.attack-wrapper {
+    background-image: url("../img/mysterious-path.jpg");
+    background-size: contain;
+}
+
+.animations-header-text {
+    animation: fade-in-purple 3s;
+    color: rebeccapurple;
+}
+
+.razor-attack {
+    animation: zoom-left 1s;
+    animation-timing-function: ease;
+    position: relative;
+    right: 30%;
+}
+
+.bristle-spin {
+    animation: rotate-360 1s;
+    animation-delay: 1s;
+}
+
+@keyframes fade-in-purple {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 25%;
+        color: black;
+    }
+    100% {
+        opacity: 100%;
+        color: rebeccapurple;
+    }
+}
+
+@keyframes zoom-left {
+    from {right: 0;}
+    to {right: 30%;}
+}
+
+@keyframes rotate-360 {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
